@@ -1,0 +1,15 @@
+framework module RxScheduler {
+    umbrella header "RxScheduler.h"
+
+    export *
+    module * { export * }
+
+    explicit module SubClasses {
+        header "RxRunLoopScheduler.h"
+        header "RxRunLoopScheduler+SubClasses.h"
+        header "RxQueueScheduler.h"
+        header "RxQueueScheduler+SubClasses.h"
+        header "RxScheduler+SubClasses.h"
+        header "RxSchedulerToken.h"
+    }
+}

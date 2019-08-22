@@ -1,0 +1,22 @@
+{
+  "name": "CrashRealm",
+  "version": "0.1.0",
+  "summary": "A short description of CrashRealm.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/retval/CrashRealm",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "retval": "retval@me.com"
+  },
+  "source": {
+    "git": "https://github.com/retval/CrashRealm.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CrashRealm/Classes/**/*"
+}

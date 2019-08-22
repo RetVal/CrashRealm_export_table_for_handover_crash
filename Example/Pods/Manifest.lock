@@ -1,0 +1,77 @@
+PODS:
+  - CrashRealm (0.1.0)
+  - libextobjc (0.6):
+    - libextobjc/EXTADT (= 0.6)
+    - libextobjc/EXTConcreteProtocol (= 0.6)
+    - libextobjc/EXTKeyPathCoding (= 0.6)
+    - libextobjc/EXTNil (= 0.6)
+    - libextobjc/EXTSafeCategory (= 0.6)
+    - libextobjc/EXTScope (= 0.6)
+    - libextobjc/EXTSelectorChecking (= 0.6)
+    - libextobjc/EXTSynthesize (= 0.6)
+    - "libextobjc/NSInvocation+EXT (= 0.6)"
+    - "libextobjc/NSMethodSignature+EXT (= 0.6)"
+    - libextobjc/RuntimeExtensions (= 0.6)
+    - libextobjc/UmbrellaHeader (= 0.6)
+  - libextobjc/EXTADT (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.6):
+    - libextobjc/RuntimeExtensions
+  - "libextobjc/NSInvocation+EXT (0.6)":
+    - libextobjc/RuntimeExtensions
+  - "libextobjc/NSMethodSignature+EXT (0.6)":
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.6)
+  - libextobjc/UmbrellaHeader (0.6)
+  - Realm (3.17.3):
+    - Realm/Headers (= 3.17.3)
+  - Realm/Headers (3.17.3)
+  - RxCoreComponents (1.2.2):
+    - libextobjc
+    - RxFoundation (~> 1.2)
+  - RxFoundation (1.2.0)
+  - RxScheduler (0.1.3):
+    - RxCoreComponents (~> 1.2.1)
+    - RxFoundation (~> 1.2)
+
+DEPENDENCIES:
+  - CrashRealm (from `../`)
+  - Realm (= 3.17.3)
+  - RxScheduler
+
+SPEC REPOS:
+  "git@github.com:RetVal/RxSpecs.git":
+    - RxCoreComponents
+    - RxFoundation
+    - RxScheduler
+  https://github.com/cocoapods/specs.git:
+    - libextobjc
+    - Realm
+
+EXTERNAL SOURCES:
+  CrashRealm:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CrashRealm: ffafbbbc5cf4eb79fb4f9c928092a39056558ffe
+  libextobjc: aed8b7d2b07f511c1a7ecaacb33ea03e327c69b7
+  Realm: 5a1d9d47bfc101dd597668b1a8af4288a2557f6d
+  RxCoreComponents: 3181e0d85945637a0de6c70265eac4fe429af993
+  RxFoundation: 4d9661996007e34ef8ebaf4f10365bc466042faf
+  RxScheduler: 2627d8ecb8dd9ff9a4bb0c8da831c1eed4174d3e
+
+PODFILE CHECKSUM: 2f6556d353fe144af734a11c922d7d0fffd44f5e
+
+COCOAPODS: 1.7.5

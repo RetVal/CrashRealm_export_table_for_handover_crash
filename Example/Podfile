@@ -1,10 +1,14 @@
-use_frameworks!
+#use_frameworks!
 
 platform :ios, '8.0'
 
+source 'git@github.com:RetVal/RxSpecs.git'
+source 'git@github.com:CocoaPods/Specs.git'
+
 target 'CrashRealm_Example' do
   pod 'CrashRealm', :path => '../'
-
+  pod 'Realm', '3.17.3'
+  pod 'RxScheduler'
   target 'CrashRealm_Tests' do
     inherit! :search_paths
 

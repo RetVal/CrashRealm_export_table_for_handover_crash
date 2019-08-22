@@ -1,0 +1,6 @@
+framework module RxCoreComponents {
+    umbrella header "RxCoreComponents.h"
+    
+    export *
+    module * { export * }
+}
